@@ -1,11 +1,25 @@
 // pages/home/home.js
 Page({
 
+  // 用户点击测试
+  testClick(e){
+    this.setData({
+      test: '77777777',
+      num: this.data.num + e.target.dataset.info
+    })
+    console.log(e, 'eeeeeee');
+  },
+
   /**
    * 页面的初始数据
    */
   data: {
-
+    num: 0,
+    test: "hello word",
+    code: 66666,
+    info: 6,
+    bool: true,
+    array: ["zs", "ls", "ww"]
   },
 
   /**
