@@ -1,2 +1,26 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view mut-bind:tap="testClick" data-info="{{info}}">{{test}}{{num}}</view>
+
+<view hidden="{{false}}">666666</view>
+
+<!-- if  -->
+<block wx:if="{{bool}}">
+  <view>7777</view>
+  <view>66666</view>
+</block>
+
+<block wx:else>
+  <view>7777333</view>
+  <view>66666</view>
+</block>
+
+<!-- for -->
+<view wx:for="{{array}}" wx:key="item">
+  索引{{index}} 值{{item}}
+</view>
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+
+<view wx:for="{{array}}" wx:key="idx" wx:for-index="idx" wx:for-item="items">
+  索引{{idx}} 值{{items}}
+</view>
