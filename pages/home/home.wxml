@@ -3,14 +3,14 @@
 
 <view hidden="{{false}}">666666</view>
 
-<!-- if  -->
+<!-- if  -->                          
 <block wx:if="{{bool}}">
-  <view>7777</view>
+  <view class="userName">7777</view>
   <view>66666</view>
 </block>
 
 <block wx:else>
-  <view>7777333</view>
+  <view class="userName">7777333</view>
   <view>66666</view>
 </block>
 
@@ -24,3 +24,11 @@
 <view wx:for="{{array}}" wx:key="idx" wx:for-index="idx" wx:for-item="items">
   索引{{idx}} 值{{items}}
 </view>
+
+
+<view>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</view>
+
+<button bind:tap="goToMine">去到我的页面</button>
+
+<button bind:tap="goToInfo">去到info页面</button>
+

@@ -1,0 +1,13 @@
+<!--pages/message/message.wxml-->
+<text>pages/message/message.wxml</text>
+
+<view>count: {{count}}</view>
+
+<button bind:tap="addCount">增加count值</button>
+
+
+<view>
+  <view wx:for="{{array}}" wx:key="it" wx:for-item="it">
+    {{it}}
+  </view>
+</view>
