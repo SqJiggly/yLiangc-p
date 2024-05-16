@@ -1,0 +1,11 @@
+<!--compontent/com-one/com-one.wxml-->
+<text>compontent/com-one/com-one.wxml</text>
+
+<view></view>
+
+<button bind:tap="addNumber">和相加</button>
+
+<view>{{m1.test(obj.name)}}</view>
+
+
+<wxs src="/utils/tools.wxs" module="m1"/>

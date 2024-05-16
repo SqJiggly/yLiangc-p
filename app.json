@@ -11,6 +11,9 @@
     "navigationBarTitleText": "心心相印",
     "navigationBarBackgroundColor": "#ff8080"
   },
+  "usingComponents": {
+    "com-one": "/compontent/com-one/com-one"
+  },
   "tabBar": {
     "list": [{
       "pagePath": "pages/home/home",

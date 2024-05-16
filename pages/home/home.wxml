@@ -32,3 +32,8 @@
 
 <button bind:tap="goToInfo">去到info页面</button>
 
+<view>~~~~~~~~~~~数据监听~~~~~~~~~~</view>
+
+<com-one name="hss" num="24"></com-one>
+
+

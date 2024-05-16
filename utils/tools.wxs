@@ -1,0 +1,7 @@
+function test(str){
+  return str + "6666"
+}
+
+module.exports = {
+  test: test
+}
